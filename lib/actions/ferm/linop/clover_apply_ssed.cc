@@ -1,10 +1,12 @@
 #include "qdp_config.h"
 #include "qdp_precision.h"
 
+#include "scalarsite_sse/sse_dcomplex_mult_macros.h"
 
 namespace Chroma {
 
-#include "scalarsite_sse/sse_dcomplex_mult_macros.h"
+using QDP::REAL64;
+
   void ssed_clover_apply(REAL64* diag, REAL64* offd, REAL64* psiptr, REAL64* chiptr, int n_sites)
   {
 

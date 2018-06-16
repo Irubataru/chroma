@@ -2,13 +2,13 @@
 #ifndef STAG_PROPSHIFT_S_H
 #define STAG_PROPSHIFT_S_H
 
+#include "chromabase.h"
+
 namespace Chroma {
 
 /* Forward declarations for the shifting of the staggered propagator
  * index to co-incide with the corect delta for meson spectroscopy
  */
-
-#include "chromabase.h"
 
 int deltaToPropIndex(multi1d<int>& delta);
 void PropIndexTodelta(int src_index, multi1d<int>& delta) ;

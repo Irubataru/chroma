@@ -20,7 +20,6 @@ namespace CRC48
                The author would appreciate receiving any improvements  
                (or bug fixes) 
 **************************************************************************/ 
-#include "crc48.h" 
  
 /* 
    Define a number required items. 
